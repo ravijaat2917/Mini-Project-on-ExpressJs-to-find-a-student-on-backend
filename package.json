@@ -1,0 +1,23 @@
+{
+  "name": "s6-question1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --exit"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "mocha": "^6.2.2",
+    "nodemon": "^2.0.21"
+  }
+}
